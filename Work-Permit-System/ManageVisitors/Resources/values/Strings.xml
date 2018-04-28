@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="strBottomLine"></string>
+  <string name="DepartmentLogIn">Department LogIn</string>
+  <string name="VendorLogIn">Vendor LogIn</string>
+  <string name="DepartmentEmployeeRegistration">Employee Registration</string>
+  <string name="VendorRegistration">Vendor Registration</string>
+  <string name="CreateNewRequest">Create New Request</string>
+  <string name="VendorsRequestList">Vendors Request List</string>
+  <string name="VendorsRequestListDetails">Request Details</string>
+  <string name="RequestProcessStatusFlow">Status Flow</string>
+  <string name="app_name">WPS</string>
+  <string name="open_drawer">Open drawer</string>
+  <string name="close_drawer">Close drawer</string>
+</resources>

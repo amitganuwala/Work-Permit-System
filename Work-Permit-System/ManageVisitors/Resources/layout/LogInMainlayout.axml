@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayoutSecond"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="16dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:padding="16dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="2"
+            android:minWidth="25px"
+            android:minHeight="25px" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:id="@+id/linearLayout4"
+            android:minWidth="25px"
+            android:minHeight="25px">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:id="@+id/linearLayout5">
+                <Button
+                    android:text="DEPARTMENT LOGIN"
+                    android:id="@+id/btnDepartmentLogIn"
+                    android:textSize="20dp"
+                    android:background="@drawable/red_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    style="@style/button_text"
+                    android:layout_weight="0.5" />
+                <Button
+                    android:text="Vendor LOGIN"
+                    android:id="@+id/btnVendorLogIn"
+                    android:textSize="20dp"
+                    android:background="@drawable/red_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    style="@style/button_text"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="2"
+            android:id="@+id/linearLayout4"
+            android:minWidth="25px"
+            android:minHeight="25px" />
+    </LinearLayout>
+</LinearLayout>

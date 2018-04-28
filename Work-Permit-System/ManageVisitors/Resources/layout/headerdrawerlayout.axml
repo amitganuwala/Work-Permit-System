@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="225dp"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/mahindralogo"
+    android:minWidth="25px"
+    android:minHeight="25px" />

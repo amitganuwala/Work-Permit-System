@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    <include
+        layout="@layout/app_bar" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/Divider"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="3dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.1"
+        android:padding="5dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:id="@+id/linearLayout4"
+            android:minWidth="25px"
+            android:minHeight="25px">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:typeface="sans"
+                android:gravity="center_vertical|center"
+                android:layout_gravity="center_vertical"
+                android:layout_centerInParent="true"
+                android:id="@+id/lblResult"
+                android:textSize="17dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="View Send Request" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.1"
+        android:id="@+id/linearLayout4"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/rounded_corner">
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="RequestID"
+                android:typeface="sans"
+                android:gravity="center_vertical|center"
+                android:layout_gravity="center_vertical|left"
+                android:layout_centerInParent="true"
+                android:id="@+id/lblRPRequestID"
+                android:background="@drawable/rounded_withoutcorner" />
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Employee Name"
+                android:typeface="sans"
+                android:gravity="center_vertical|center"
+                android:layout_gravity="center_vertical|left"
+                android:layout_centerInParent="true"
+                android:id="@+id/lblRPEmployeeName"
+                android:background="@drawable/rounded_withoutcorner" />
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Start Time"
+                android:typeface="sans"
+                android:gravity="center_vertical|center"
+                android:layout_gravity="center_vertical|left"
+                android:layout_centerInParent="true"
+                android:id="@+id/lblRPStartTime"
+                android:background="@drawable/rounded_withoutcorner" />
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="End Time"
+                android:typeface="sans"
+                android:gravity="center_vertical|center"
+                android:layout_gravity="center_vertical|left"
+                android:layout_centerInParent="true"
+                android:id="@+id/lblRPEndTime"
+                android:background="@drawable/rounded_withoutcorner" />
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Reason"
+                android:typeface="sans"
+                android:gravity="center_vertical|center"
+                android:layout_gravity="center_vertical|left"
+                android:layout_centerInParent="true"
+                android:id="@+id/lblReasons"
+                android:background="@drawable/rounded_withoutcorner" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:id="@+id/linearLayout4"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <ListView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/RPVendorlistView" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.05"
+        android:id="@+id/linearLayout4"
+        android:minWidth="25px"
+        android:minHeight="25px" />
+</LinearLayout>

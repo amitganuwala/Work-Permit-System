@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "351005793037",
+    "firebase_url": "https://mahindra-e9f4d.firebaseio.com",
+    "project_id": "mahindra-e9f4d",
+    "storage_bucket": "mahindra-e9f4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351005793037:android:acaf35dae135a1d3",
+        "android_client_info": {
+          "package_name": "com.mahindra.ManageVisitors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351005793037-euvs5287cis06rotgggn7s33chpncq7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7Nru8tojk5SEGlh-rA85pGDZcv1wCXNk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
